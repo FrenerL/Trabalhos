@@ -1,16 +1,12 @@
 html {scroll-behavior: smooth;}
 
-#{
-
-}
-
 #home {
     height: 100vh;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
+    padding: 10%;
 }
 
 #home h1 {
@@ -22,9 +18,9 @@ html {scroll-behavior: smooth;}
 }
 
 section {
-    padding: 100px 0;
-    height: 100vh;
-    display: flex;
+    padding: 300px 0;
+    height: 150vh;
+    display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
