@@ -1,5 +1,13 @@
 html {scroll-behavior: smooth;}
 
+body{
+    background-color: black;
+}
+
+nav{
+    height: 70px;
+}
+
 #home {
     height: 100vh;
     background-size: cover;
@@ -7,6 +15,10 @@ html {scroll-behavior: smooth;}
     align-items: center;
     text-align: center;
     padding: 10%;
+}
+
+#myCarosel{
+    text-align: center;
 }
 
 #home h1 {
@@ -18,6 +30,7 @@ html {scroll-behavior: smooth;}
 }
 
 section {
+    color: white;
     padding: 300px 0;
     height: 150vh;
     display: block;
@@ -27,17 +40,52 @@ section {
 }
 
 .scroll-btn {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+footer{
     padding: 20px 0;
-    text-align: center;
+    background-color: darkmagenta;
 }
 
+footer p {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    padding-right: 20px 0;
+    text-align: right;
+}
+
+footer ul{
+    text-align: left;
+    color: #fff;
+    height: 100px;
+}
+
+#sobre p{
+    padding: 50px 0;
+}
+
+footer h3{
+    color: #fff;
+    padding: 20px;
+}
 
 nav.scrolled {
     background-color:darkviolet !important;
+}
+
+#container{
+    text-align: left !important;
+    align-items: left !important;
+}
+
+#forms{
+    text-align: left;
+    width: 75%;
+}
+
+#tópico{
+    height: 140x;
+}
 }
